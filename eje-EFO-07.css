@@ -1,0 +1,30 @@
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+}
+#div-formulario{
+ background-color: gainsboro;
+ padding: 20px;
+ border-radius: 4px;  
+}
+input[type="text"]{
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+input, select{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: lightgray;
+    border-style: solid;
+}
+#boton-enviar{
+    background-color: #7f1e57;
+    color: white;
+    border-radius: 3px;
+    color: pointer;
+}
