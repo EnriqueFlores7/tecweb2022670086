@@ -1,0 +1,59 @@
+#div-container{
+    width: 50%;
+    /*Sombras*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   
+    /*Centar el contenedor*/
+    margin:auto;
+    display: flex;
+    color: black;
+    
+}
+
+#div-image{
+    width: 34%;
+    background-color: yellow;
+    
+
+}
+
+
+
+#div-form{
+    width: 66%;
+    padding: 15px;
+}
+
+input{
+    display: block;
+}
+
+#img-audifonos{
+    width: 100%;
+    box-sizing: border-box;
+   
+}
+
+.textos-100{
+    width: 100%;
+    color: gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+    
+    
+}
+.textos-100:hover{
+    border-color: yellow;
+}
+
+#pagar-reservacion{
+    border-radius: 5px;
+    background-color: rgb(5, 179, 5);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-style: solid;
+    cursor: pointer;   
+}

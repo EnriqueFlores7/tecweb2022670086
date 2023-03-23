@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/eje-EFO-08.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Regresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="div-container">
+                <div id="div-image">
+                    <img src="Imagenes/audifonos-ok.png">
+                </div>
+                <div id="div-form">
+                    <h1>Detalles de pago</h1>
+                    <form>
+                        <label for="nombre"><small> NOMBRE</small></label>
+                        <input class="textos-100" type="text" id="nombre">
+                        <label for="tarjeta"><small>NUMERO DE TARJETA</small> </label>
+                        <input class="textos-100" type="text" id="tarjeta">
+                        <label for="mes"><small> FECHA DE VENCIMIENTO</small></label>
+                        <input class="textos-100" type="text" id="mes" placeholder="MM">
+
+                        <input class="textos-100" type="text" id="año" placeholder="YY">
+                        <label><small>CVC</small> </label>
+                        <input class="textos-100" type="text" id="cvc" placeholder="123">
+                        <input type="checkbox" id="guardar-tarjeta" checked>
+                        <label>Guardar mi tarjeta para futuras compras</label>
+                        <input type="button" id="pagar-reservacion" value="PAGAR AHORA">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
